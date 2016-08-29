@@ -1,3 +1,5 @@
+require('newrelic');
+
 var bodyParser = require('body-parser');
 var express = require('express');
 var rateLimit = require('express-rate-limit');
